@@ -1,0 +1,37 @@
+
+@font-face{
+    font-family: LobsterFuenteCustom;
+    src: url("fonts/Lobster-Regular.ttf");
+}
+
+h1{
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Rowdies', cursive;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 45px;
+
+    /*Colores*/
+    
+    /*Colores del sistema*/
+    color: mediumpurple;
+    /*Colores hexadecimales*/
+    color: #9a3333;
+    /*Colores RGB*/
+    color: rgb(80, 88, 255);
+    /*Colores RGBA*/
+    color: rgba(80, 88, 255,0.5);
+    
+}
+h3{
+    font-family: LobsterFuenteCustom,"Comic Sans MS";
+    font-size: 35px;
+    font-weight: lighter;
+    color: olive;
+}
+
+P{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
