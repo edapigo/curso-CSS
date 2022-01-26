@@ -33,6 +33,7 @@ body{
     grid-column: 1 / 6;
     background: lightblue;
     color: black;
+    line-height: 70px;
 }
 
 .menu ul{
