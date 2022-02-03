@@ -13,6 +13,20 @@
 }
 
 footer{
-   height: 50px;
-   line-height: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.lateral{
+    height: 250px;
+}
+
+.lateral > div{
+    height: calc(250px / 3);
+}
+
+@media (max-width: 778px) {
+    #menu{
+        height: auto;
+    }
 }
