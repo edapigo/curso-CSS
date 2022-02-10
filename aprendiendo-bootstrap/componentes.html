@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width-device-width, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>Mi pagina con Bootstrap</title>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
@@ -12,151 +12,169 @@
 <body>
     <div class="container">
         <div class="row">
-            <header class="col-md-12 mt-2">
 
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div class="container-fluid">
-
-                        <a class="navbar-brand" href="#">COMPONENTES</a>
-
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1"
-                                        aria-disabled="true">Disabled</a>
-                                </li class="nav-item">
-
-                                <li>
-                                    <form class="d-flex mx-2">
-                                        <input class="form-control me-2" type="search" placeholder="Search"
-                                            aria-label="Search">
-                                        <button class="btn btn-outline-success" type="submit">Search</button>
-                                    </form>
-                                </li>
-
-                            </ul>
-
-                            <ul class="navbar-nav mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Edward Pino
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-            </header>
         </div>
 
         <div class="row">
             <div class="col-md-8 mt-3">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="#">Inicio</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="#">Desarrollo Web</a>
-                        </li>
-                        <li class="breadcrumb-item">
-                            <a href="#">Componentes de Bootstrap</a>
-                        </li>
-                    </ol>
-                </nav>
 
-                <!-- SLIDER-->
+                <!-- NAVBAR-->
+                <header class="col-md-12 mt-2">
 
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="https://via.placeholder.com/900x350?text=PRIMERA" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://via.placeholder.com/900x350?text=PRIMERA" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+                            <a class="navbar-brand" href="#">COMPONENTES</a>
 
-                <div id="slider" class="carousel slide mb-3" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://via.placeholder.com/900x350?text=PRIMERA" />
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link disabled" href="#" tabindex="-1"
+                                            aria-disabled="true">Disabled</a>
+                                    </li class="nav-item">
+
+                                    <li>
+                                        <form class="d-flex mx-2">
+                                            <input class="form-control me-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                            <button class="btn btn-outline-success" type="submit">Search</button>
+                                        </form>
+                                    </li>
+
+                                </ul>
+
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Edward Pino
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
+                    </nav>
 
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://via.placeholder.com/900x350?text=SEGUNDA" />
-                        </div>
+                </header>
+                <!-- FIN NAVBAR-->
 
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://via.placeholder.com/900x350?text=TERCERA" />
-                        </div>
+
+                <div class="row">
+                    <!--MIGA DE PAN-->
+                    <div class="col-md-8 mt-3">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="#">Inicio</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#">Desarrollo Web</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#">Componentes de Bootstrap</a>
+                                </li>
+                            </ol>
+                        </nav>
+
+
                     </div>
+                    <!--FIN MIGA DE PAN-->
+
+                    <!--CAROUSEL-->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <img src="https://via.placeholder.com/900x350" class="d-block w-100" alt="Primera">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/900x350" class="d-block w-100" alt="Segunda">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/900x350" class="d-block w-100" alt="Tercero">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!--FIN CAROUSEL-->
+
                 </div>
 
-                <!-- FIN SLIDER-->
 
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
+
+
+                <!-- ALERT -->
+                <div class="mt-3 alert alert-success alert-dismissible fade show" role="alert">
                     <strong>Increible!!</strong> Te has registrado correctamente
 
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                        <span>&times;</span>
-                    </button>
-                </div>
 
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+                <!-- FIN ALERT -->
+
+                <!-- BADGET-->
                 <h2>
                     <span class="badge bg-success">
                         NUEVO
@@ -170,10 +188,16 @@
                         Articulo Nuevo
                     </a>
                 </p>
+                <!-- FIN BADGET-->
 
 
             </div>
+
+
+
         </div>
+
+        <!--CARD-->
         <div class="row col-md-8 ">
             <div class="card col p-0 mr-3">
                 <img class="card-img-top img-fluid" src="https://via.placeholder.com/350x200" />
@@ -208,15 +232,229 @@
                 </div>
             </div>
 
+            <!--PAGINACION-->
+            <nav aria-label="pagination" class="p-0 mt-3">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#"> &laquo;</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--FIN PAGINACION-->
+
         </div>
+        <!--FIN CARD-->
+
+        <!-- Modal -->
+
+        <div class="col-md-4">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sacar Ventana
+            </button>
+
+
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">¿Estas Seguro?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Una vez cerrada se podra abrir muchas veces
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FIN Modal -->
+
+        <!--COLLAPSE-->
+        <a class="btn btn-success mt-3 mb-3" data-bs-toggle="collapse" href="#informacion" role="button">
+            Mostrar Información
+        </a>
+        <div class="collpase" id="informacion">
+            <div class="card card-body bg-dark text-white mt-2">
+                Esta es la información oculta
+            </div>
+        </div>
+        <!--FIN COLLAPSE-->
+
+        <!--BARRA PROGRESO-->
+        <div class="progress mt-5 ">
+            <div id="barra-progreso" class="progress-bar bg-success w-0" role="progressbar">
+                0%
+            </div>
+        </div>
+        <script>
+            var contador = 0;
+            setInterval(() => {
+                if (contador < 100) {
+                    contador++;
+                    var barra = document.querySelector("#barra-progreso");
+                    barra.style.width = contador + '%';
+                    barra.innerHTML = contador + '%';
+                }
+
+            }, 1000);
+        </script>
+        <!--FIN BARRA PROGRESO-->
+
+        <!--TOOLTIP-->
+        <button type="button" class=" btn-tool btn btn-danger mt-3" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="Si das click sacaras una alerta">
+            Alerta 1
+        </button>
+
+        <button type="button" class=" btn-tool btn btn-info mt-3" data-bs-toggle="tooltip" data-bs-placement="right"
+            title="Si das click sacaras una alerta">
+            Alerta 2
+        </button>
+
+        <button type="button" class=" btn-pop btn btn-warning mt-3" data-bs-container="body" data-bs-toggle="popover"
+            title="Hola" data-bs-content="Esto es un popover">
+            Alerta 3
+        </button>
+        <!--DATA PLACEMENTE NO FUNCIONA-->
+        <!--POPOVER NO FUNCIONA -->
+        <!--FIN TOOLTIP-->
+
+        <hr>
+
+        <!--FORMULARIO-->
+        <div class="row">
+            <h3>Formulario</h3>
+            <form>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-preprend">
+                            <span class="input-group-text rounded-0">Nombre</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nombre"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Género</label>
+                    <select class="form-control">
+                        <option>Hombre  </option>
+                        <option>Mujer</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Email"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-control" placeholder="Contraseña"/>
+                </div>
+                
+
+                <input type="submit" class="btn btn-success mt-3" value="Enviar" />
+            </form>
+        </div>
+        <!--FIN FORMULARIO-->
+
+        <!--JUMBOTRON-->
+        <div class="row">
+            <div class="jumbotron my-5 col-md-8">
+                <h1 class="display-6">Jumbotron</h1>
+                <p class="lead">Esto es un jumbotron</p>
+                <hr class="my-2">
+                <p>Identificate en la web</p>
+                <a href="#" class="btn btn-primary btn-xs">Login</a>
+            </div>
+        </div>
+        <!--FIN JUMBOTRON-->
+
+        <table class="table table-bordered table-hover my-3">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Apellido
+                    </th>
+                    <th>
+                       Edad
+                    </th>
+                </tr>
+            </thead>
+            
+            <tr>
+                <td>
+                    Juana
+                </td>
+                <td>
+                    Arco
+                </td>
+                <td>
+                   16
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Josefa
+                </td>
+                <td>
+                    Mendez
+                </td>
+                <td>
+                   20
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ramon
+                </td>
+                <td>
+                    Valdez
+                </td>
+                <td>
+                   30
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Paco
+                </td>
+                <td>
+                    Panimboza
+                </td>
+                <td>
+                   27
+                </td>
+            </tr>
+
+        </table>
 
     </div>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            alert("Hola");
-        });
-    </script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
